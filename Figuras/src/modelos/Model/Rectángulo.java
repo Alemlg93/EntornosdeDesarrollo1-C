@@ -1,34 +1,21 @@
-
+package modelos.Model;
 import java.util.*;
 
-/**
- * 
- */
-private class Rectángulo {
-
-    /**
-     * Default constructor
-     */
-    private Rectángulo() {
-    }
-
-    /**
-     * 
-     */
-    private int base;
-
-    /**
-     * 
-     */
+public class Rectángulo {
+    
+	private int base;
     private int altura;
 
-    /**
-     * @param base 
-     * @param altura
-     */
-    public void Rectángulo(int base, int altura) {
-        // TODO implement here
+    public Rectángulo() {
+    	this.base=base;
+    	this.altura=altura;
     }
+   
+   
+    public void Rectángulo(int base, int altura) {
+    	this.base=1;
+    	this.altura=1;      
+    	}
 
     /**
      * @param base
@@ -77,11 +64,6 @@ private class Rectángulo {
         return 0;
     }
 
-    /**
-     * 
-     */
-    public void Operation1() {
-        // TODO implement here
-    }
+   
 
 }
